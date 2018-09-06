@@ -46,7 +46,7 @@ with open('data.json') as data_file:
     data_loaded = json.load(data_file)
 
 dependencies=data_loaded['dependecis']
-print(len(dependencies))
+#print(len(dependencies))
 
 
 def installdependecies(package):
@@ -64,7 +64,7 @@ if flag:
     print("All dependecies are succesfully installed")
 print("------------------------------------------")
 print("not installed dependecies ")
-n1=len(l)
-print(n1)
+#n1=len(l)
+#print(n1)
 for i in l:
     print(i)
