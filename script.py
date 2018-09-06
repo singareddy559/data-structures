@@ -49,7 +49,7 @@ dependencies=data_loaded['dependecis']
 print(len(dependencies))
 
 
-def install(package):
+def installdependecies(package):
     if hasattr(pip, 'main'):
         return pip.main(['install', package])
     else:
@@ -57,7 +57,7 @@ def install(package):
 l=[]
 flag=1
 for i in dependencies:
-    if not install(i):
+    if not installdependecies(i):
         flag=0
         l.append(i)
 if flag:
