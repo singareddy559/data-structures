@@ -1,3 +1,5 @@
+# Time complexity for this solution is O(nmlogm) where n is length of tuple and m is length of longest sting in given tuple
+
 class Solution:
     # @param A : tuple of strings
     # @return a list of list of integers
