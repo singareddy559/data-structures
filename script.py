@@ -61,7 +61,7 @@ for i in dependencies:
         flag=0
         l.append(i)
 if flag:
-    print("succesfully installed")
+    print("All dependecies are succesfully installed")
 print("------------------------------------------")
 print("not installed dependecies ")
 n1=len(l)
