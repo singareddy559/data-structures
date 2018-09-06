@@ -1,3 +1,9 @@
+#Timecomplexity is O(n^2) for this solution.
+#Thought process is 
+# 1.intially sorting the given array
+# 2.iterate through length(n) 
+# 3. taking two pointers one J=i+1 other is K=Len(A)-1 in loop 
+
 class Solution:
     # @param A : list of integers
     # @param B : integer
